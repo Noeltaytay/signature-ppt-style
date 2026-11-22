@@ -121,6 +121,20 @@ A style/workflow overlay on [`ppt-master`](https://github.com/hugohe3/ppt-master
 postflight. This package handles structure, decoration, palette selection, and
 working preferences.
 
+## Validation
+
+```bash
+python -m py_compile scripts/*.py
+python scripts/check_style.py templates
+python scripts/check_style.py templates --palette presets/academic-warm.json --strict-palette
+```
+
+The GitHub Actions workflow in `.github/workflows/validate.yml` compiles the
+scripts, checks the templates, and recolors them with a second palette on every
+push/PR.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for version history.
+
 ## Privacy
 
 Templates use placeholders only. Do not publish real names, schools, photos,
