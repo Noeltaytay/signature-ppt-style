@@ -1,0 +1,79 @@
+{
+  "name": "product-dark",
+  "description": "Product/AI/robotics: charcoal field, white content, cyan accent.",
+  "colors": {
+    "primary": "#0B1220",
+    "secondary": "#1E293B",
+    "action": "#38BDF8",
+    "background": "#F5F7FA",
+    "surface": "#FFFFFF",
+    "accent": "#38BDF8",
+    "accent_light": "#7DD3FC",
+    "text": "#0F172A",
+    "muted": "#64748B",
+    "divider": "#CBD5E1",
+    "on_primary": "#F8FAFC",
+    "on_primary_muted": "#CBD5E1",
+    "dark_field": "#050A14",
+    "dark_field_mid": "#0B1220",
+    "dark_panel": "#111827"
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "typography": {
+    "display_family": "Georgia, Source Han Serif SC Heavy, SimSun",
+    "body_family": "Microsoft YaHei, Arial",
+    "hand_family": "KaiTi, STKaiti, Microsoft YaHei",
+    "display": 84,
+    "title": 44,
+    "subtitle": 24,
+    "body": 20,
+    "annotation": 22,
+    "caption": 16,
+    "micro": 12,
+    "chapter_number": 420,
+    "stage_number": 56
+  },
+  "spacing": {
+    "margin": 64,
+    "gutter": 32,
+    "block": 24,
+    "header_height": 72,
+    "footer_height": 40
+  },
+  "radius": 0,
+  "chart_palette": [
+    "#0B1220",
+    "#38BDF8",
+    "#1E293B",
+    "#38BDF8",
+    "#7DD3FC"
+  ],
+  "chapter_divider": {
+    "schematic_only": true,
+    "plate": {
+      "x": 84,
+      "y": 294,
+      "width": 604,
+      "height": 224
+    },
+    "number": {
+      "x": 80,
+      "y": 540,
+      "font_size": 420,
+      "opacity": 0.12
+    },
+    "tagline_font": "KaiTi, STKaiti, Microsoft YaHei",
+    "tagline_size": 34
+  },
+  "rules": {
+    "structure_fixed": true,
+    "palette_content_driven": true,
+    "no_real_photos_on_dividers": true,
+    "no_cards_everywhere": true,
+    "no_fake_metrics": true,
+    "accent_small_area_only": true
+  }
+}

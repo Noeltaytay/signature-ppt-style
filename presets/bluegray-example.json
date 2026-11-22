@@ -1,0 +1,79 @@
+{
+  "name": "bluegray-example",
+  "description": "Approved example: deep navy, light content plane, restrained gold. Use as a structural reference, not a fixed palette.",
+  "colors": {
+    "primary": "#192F59",
+    "secondary": "#50638A",
+    "action": "#094183",
+    "background": "#F7FAFE",
+    "surface": "#FFFFFF",
+    "accent": "#C2A368",
+    "accent_light": "#D8BE86",
+    "text": "#192F59",
+    "muted": "#5B7080",
+    "divider": "#C3D2DC",
+    "on_primary": "#F5F8FA",
+    "on_primary_muted": "#C9D7E0",
+    "dark_field": "#10254A",
+    "dark_field_mid": "#1B3E6B",
+    "dark_panel": "#10233F"
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "typography": {
+    "display_family": "Georgia, Source Han Serif SC Heavy, SimSun",
+    "body_family": "Microsoft YaHei, Arial",
+    "hand_family": "KaiTi, STKaiti, Microsoft YaHei",
+    "display": 84,
+    "title": 44,
+    "subtitle": 24,
+    "body": 20,
+    "annotation": 22,
+    "caption": 16,
+    "micro": 12,
+    "chapter_number": 420,
+    "stage_number": 56
+  },
+  "spacing": {
+    "margin": 64,
+    "gutter": 32,
+    "block": 24,
+    "header_height": 72,
+    "footer_height": 40
+  },
+  "radius": 0,
+  "chart_palette": [
+    "#192F59",
+    "#094183",
+    "#50638A",
+    "#C2A368",
+    "#D8BE86"
+  ],
+  "chapter_divider": {
+    "schematic_only": true,
+    "plate": {
+      "x": 84,
+      "y": 294,
+      "width": 604,
+      "height": 224
+    },
+    "number": {
+      "x": 80,
+      "y": 540,
+      "font_size": 420,
+      "opacity": 0.12
+    },
+    "tagline_font": "KaiTi, STKaiti, Microsoft YaHei",
+    "tagline_size": 34
+  },
+  "rules": {
+    "structure_fixed": true,
+    "palette_content_driven": true,
+    "no_real_photos_on_dividers": true,
+    "no_cards_everywhere": true,
+    "no_fake_metrics": true,
+    "accent_small_area_only": true
+  }
+}

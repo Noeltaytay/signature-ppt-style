@@ -1,0 +1,79 @@
+{
+  "name": "corporate-navy",
+  "description": "Corporate/consulting: navy field, white content, steel accent.",
+  "colors": {
+    "primary": "#12324A",
+    "secondary": "#3E5C76",
+    "action": "#2F6B8F",
+    "background": "#F6F8FA",
+    "surface": "#FFFFFF",
+    "accent": "#B08D57",
+    "accent_light": "#D8BE8A",
+    "text": "#142433",
+    "muted": "#5C6B78",
+    "divider": "#C9D4DD",
+    "on_primary": "#F7FAFC",
+    "on_primary_muted": "#C9D7E1",
+    "dark_field": "#0D2438",
+    "dark_field_mid": "#17364F",
+    "dark_panel": "#0A1B2A"
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "typography": {
+    "display_family": "Georgia, Source Han Serif SC Heavy, SimSun",
+    "body_family": "Microsoft YaHei, Arial",
+    "hand_family": "KaiTi, STKaiti, Microsoft YaHei",
+    "display": 84,
+    "title": 44,
+    "subtitle": 24,
+    "body": 20,
+    "annotation": 22,
+    "caption": 16,
+    "micro": 12,
+    "chapter_number": 420,
+    "stage_number": 56
+  },
+  "spacing": {
+    "margin": 64,
+    "gutter": 32,
+    "block": 24,
+    "header_height": 72,
+    "footer_height": 40
+  },
+  "radius": 0,
+  "chart_palette": [
+    "#12324A",
+    "#2F6B8F",
+    "#3E5C76",
+    "#B08D57",
+    "#D8BE8A"
+  ],
+  "chapter_divider": {
+    "schematic_only": true,
+    "plate": {
+      "x": 84,
+      "y": 294,
+      "width": 604,
+      "height": 224
+    },
+    "number": {
+      "x": 80,
+      "y": 540,
+      "font_size": 420,
+      "opacity": 0.12
+    },
+    "tagline_font": "KaiTi, STKaiti, Microsoft YaHei",
+    "tagline_size": 34
+  },
+  "rules": {
+    "structure_fixed": true,
+    "palette_content_driven": true,
+    "no_real_photos_on_dividers": true,
+    "no_cards_everywhere": true,
+    "no_fake_metrics": true,
+    "accent_small_area_only": true
+  }
+}

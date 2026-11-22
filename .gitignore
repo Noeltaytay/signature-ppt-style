@@ -1,0 +1,27 @@
+# Personal / generated deck artifacts — never commit these
+*.pptx
+*.ppt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+backup/
+exports/
+photo/
+images/
+live_preview/
+*.report.json
+*.trace.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

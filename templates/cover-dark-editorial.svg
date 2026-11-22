@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" data-pptx-page-role="cover">
+  <defs>
+    <linearGradient id="coverField" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10254A"/>
+      <stop offset="52%" stop-color="#1B3E6B"/>
+      <stop offset="100%" stop-color="#192F59"/>
+    </linearGradient>
+    <radialGradient id="coverGlow" cx="0.78" cy="0.33" r="0.7">
+      <stop offset="0%" stop-color="#2E6AA8" stop-opacity="0.30"/>
+      <stop offset="55%" stop-color="#163A60" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#192F59" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="photoField" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#193B63"/>
+      <stop offset="58%" stop-color="#142C4D"/>
+      <stop offset="100%" stop-color="#10233F"/>
+    </linearGradient>
+    <linearGradient id="photoFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#192F59" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#192F59" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#192F59" stop-opacity="0.80"/>
+    </linearGradient>
+    <linearGradient id="goldRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C2A368" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#C2A368" stop-opacity="0.18"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="cover-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="url(#coverField)"/>
+  <rect id="cover-glow" data-pptx-role="decoration" x="0" y="0" width="1280" height="720" fill="url(#coverGlow)"/>
+
+  <g id="cover-orbit" data-pptx-role="decoration" data-pptx-bounds="0 0 1280 720">
+    <text x="642" y="570" font-family="Georgia, Source Han Serif SC Heavy, SimSun" font-size="420" fill="#3F6E9F" fill-opacity="0.09">智</text>
+    <circle cx="1078" cy="304" r="470" fill="none" stroke="#4A7FB0" stroke-width="1" stroke-opacity="0.13"/>
+    <circle cx="1078" cy="304" r="382" fill="none" stroke="#4A7FB0" stroke-width="1" stroke-opacity="0.17"/>
+    <circle cx="1078" cy="304" r="294" fill="none" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.20"/>
+    <circle cx="1078" cy="304" r="204" fill="none" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.24" stroke-dasharray="2,9"/>
+    <circle cx="1078" cy="304" r="112" fill="none" stroke="#C2A368" stroke-width="1" stroke-opacity="0.24"/>
+    <line x1="1078" y1="304" x2="652" y2="98" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.16"/>
+    <line x1="1078" y1="304" x2="604" y2="344" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.13"/>
+    <line x1="1078" y1="304" x2="836" y2="620" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.13"/>
+    <path d="M82 392 C174 326 294 326 410 296 C522 267 610 254 696 264 C598 310 500 336 392 356 C300 373 188 396 92 430 Z" fill="#C2A368" fill-opacity="0.05"/>
+    <g fill="#5B8FBF" fill-opacity="0.38">
+      <circle cx="908" cy="166" r="2.4"/><circle cx="992" cy="124" r="1.8"/><circle cx="1150" cy="164" r="2.1"/>
+      <circle cx="1188" cy="248" r="1.6"/><circle cx="900" cy="432" r="1.8"/><circle cx="1204" cy="404" r="2.2"/>
+      <circle cx="934" cy="552" r="1.7"/><circle cx="1112" cy="610" r="2.4"/><circle cx="1210" cy="522" r="1.5"/>
+      <circle cx="760" cy="130" r="1.4"/><circle cx="724" cy="300" r="1.8"/><circle cx="788" cy="462" r="1.4"/>
+    </g>
+    <g fill="#C2A368" fill-opacity="0.55">
+      <circle cx="1046" cy="152" r="2.2"/><circle cx="1186" cy="332" r="1.8"/><circle cx="1104" cy="566" r="2.0"/>
+      <circle cx="860" cy="264" r="1.4"/><circle cx="814" cy="536" r="1.6"/>
+    </g>
+    <line x1="812" y1="90" x2="812" y2="640" stroke="#C2A368" stroke-width="1" stroke-opacity="0.45"/>
+  </g>
+
+  <g id="cover-kicker" data-pptx-bounds="82 98 650 36">
+    <line x1="82" y1="120" x2="122" y2="120" stroke="#C2A368" stroke-width="2"/>
+    <text x="136" y="125" font-size="16" fill="#D8BE86" letter-spacing="1.5">{{EVENT}}</text>
+  </g>
+
+  <g id="cover-title" data-pptx-bounds="82 166 690 242">
+    <text x="82" y="264" font-family="Georgia, Source Han Serif SC Heavy, SimSun" font-size="96" fill="#F5F8FA" letter-spacing="1">{{TITLE_LINE_1}}<tspan x="82" dy="108" fill="#C2A368">{{TITLE_LINE_2}}</tspan><tspan fill="#F5F8FA">{{TITLE_LINE_3}}</tspan></text>
+    <path d="M84 402 C144 412 230 408 294 397" fill="none" stroke="#C2A368" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="cover-positioning" data-pptx-bounds="82 418 680 72">
+    <text x="84" y="442" font-size="24" fill="#C9D7E0" letter-spacing="2">{{SUBTITLE}}</text>
+    <text x="84" y="476" font-size="22" fill="#E7CB92">{{ROLE}}</text>
+  </g>
+
+  <g id="cover-identity" data-pptx-bounds="82 496 680 118">
+    <text x="82" y="536" font-family="Georgia, Source Han Serif SC Heavy, SimSun" font-size="36" fill="#F5F8FA">{{NAME}}</text>
+    <text x="82" y="568" font-size="20" fill="#C9D7E0">{{AFFILIATION}}</text>
+    <line x1="82" y1="582" x2="238" y2="582" stroke="#C2A368" stroke-width="1" stroke-opacity="0.62"/>
+    <text x="82" y="606" font-size="18" fill="#B9CAD7" letter-spacing="1">{{TAGLINE}}</text>
+  </g>
+
+  <g id="cover-info" data-pptx-bounds="64 620 748 64">
+    <rect x="64" y="620" width="748" height="64" fill="#F7FAFE"/>
+    <rect x="64" y="620" width="3" height="64" fill="#C2A368"/>
+    <line x1="280" y1="636" x2="280" y2="668" stroke="#C2A368" stroke-width="1" stroke-opacity="0.45"/>
+    <line x1="548" y1="636" x2="548" y2="668" stroke="#C2A368" stroke-width="1" stroke-opacity="0.45"/>
+    <text x="84" y="641" font-size="12" fill="#7C8FA6" letter-spacing="1.2">{{INFO_1_LABEL}}</text>
+    <text x="84" y="663" font-size="16" fill="#192F59" font-weight="bold">{{INFO_1_VALUE}}</text>
+    <text x="298" y="641" font-size="12" fill="#7C8FA6" letter-spacing="1.2">{{INFO_2_LABEL}}</text>
+    <text x="298" y="663" font-size="16" fill="#192F59">{{INFO_2_VALUE}}</text>
+    <text x="566" y="641" font-size="12" fill="#7C8FA6" letter-spacing="1.2">{{INFO_3_LABEL}}</text>
+    <text x="566" y="663" font-size="16" fill="#192F59">{{INFO_3_VALUE}}</text>
+  </g>
+
+  <g id="cover-visual" data-pptx-bounds="824 78 396 546">
+    <rect x="836" y="90" width="372" height="520" fill="none" stroke="#C2A368" stroke-width="1" stroke-opacity="0.34"/>
+    <rect x="846" y="100" width="352" height="500" fill="url(#photoField)" stroke="#C2A368" stroke-width="1.5" stroke-opacity="0.84"/>
+    <rect x="846" y="100" width="8" height="8" fill="#C2A368"/>
+    <text x="866" y="134" font-size="14" fill="#D8BE86">{{PANEL_LABEL}}</text>
+    <rect x="866" y="150" width="312" height="1" fill="url(#goldRule)"/>
+
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="1022" cy="300" r="126" fill="none" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.18"/>
+      <circle cx="1022" cy="300" r="160" fill="none" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.10" stroke-dasharray="2,8"/>
+      <line x1="1022" y1="300" x2="892" y2="220" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.28"/>
+      <line x1="1022" y1="300" x2="1156" y2="230" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.24"/>
+      <line x1="1022" y1="300" x2="1172" y2="338" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.20"/>
+      <line x1="1022" y1="300" x2="880" y2="366" stroke="#5B8FBF" stroke-width="1" stroke-opacity="0.18"/>
+    </g>
+    <circle cx="1022" cy="312" r="148" fill="#2E6AA8" fill-opacity="0.10"/>
+    <rect x="866" y="196" width="312" height="234" fill="#10233F" stroke="#C2A368" stroke-width="1.5" stroke-dasharray="8 8"/>
+    <text x="1022" y="320" font-size="16" fill="#C9D7E0" text-anchor="middle">IMAGE PLACEHOLDER</text>
+
+    <g fill="#5B8FBF" fill-opacity="0.52">
+      <circle cx="892" cy="194" r="2.4"/><circle cx="1154" cy="198" r="2.1"/><circle cx="1172" cy="314" r="1.8"/>
+      <circle cx="884" cy="338" r="1.9"/><circle cx="1138" cy="382" r="2.2"/><circle cx="900" cy="448" r="1.7"/>
+      <circle cx="1112" cy="478" r="1.6"/><circle cx="954" cy="214" r="1.5"/><circle cx="1080" cy="218" r="1.6"/>
+    </g>
+    <g fill="#C2A368" fill-opacity="0.65">
+      <circle cx="1022" cy="200" r="2"/><circle cx="1102" cy="266" r="1.8"/><circle cx="936" cy="270" r="1.6"/>
+    </g>
+
+    <rect x="846" y="540" width="352" height="60" fill="url(#photoFade)"/>
+    <text x="866" y="580" font-size="13" fill="#B9CAD7">{{PANEL_CAPTION}}</text>
+  </g>
+
+  <g id="cover-footer" data-pptx-bounds="1040 686 176 24">
+    <text x="1216" y="704" font-size="12" fill="#B9CAD7" text-anchor="end" letter-spacing="1">{{PAGE_NO}} / {{TOTAL_PAGES}}</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "name": "academic-warm",
+  "description": "Academic/humanities: burgundy, warm cream, brass.",
+  "colors": {
+    "primary": "#6B2F3A",
+    "secondary": "#8A5A44",
+    "action": "#A8763E",
+    "background": "#F6F1E7",
+    "surface": "#FFFDF8",
+    "accent": "#A8763E",
+    "accent_light": "#C9A66B",
+    "text": "#2F2A28",
+    "muted": "#6F625A",
+    "divider": "#D9CBB8",
+    "on_primary": "#F8F2E7",
+    "on_primary_muted": "#D8C9B8",
+    "dark_field": "#3A1F26",
+    "dark_field_mid": "#5A2B34",
+    "dark_panel": "#2E2020"
+  },
+  "canvas": {
+    "width": 1280,
+    "height": 720
+  },
+  "typography": {
+    "display_family": "Georgia, Source Han Serif SC Heavy, SimSun",
+    "body_family": "Microsoft YaHei, Arial",
+    "hand_family": "KaiTi, STKaiti, Microsoft YaHei",
+    "display": 84,
+    "title": 44,
+    "subtitle": 24,
+    "body": 20,
+    "annotation": 22,
+    "caption": 16,
+    "micro": 12,
+    "chapter_number": 420,
+    "stage_number": 56
+  },
+  "spacing": {
+    "margin": 64,
+    "gutter": 32,
+    "block": 24,
+    "header_height": 72,
+    "footer_height": 40
+  },
+  "radius": 0,
+  "chart_palette": [
+    "#6B2F3A",
+    "#A8763E",
+    "#8A5A44",
+    "#A8763E",
+    "#C9A66B"
+  ],
+  "chapter_divider": {
+    "schematic_only": true,
+    "plate": {
+      "x": 84,
+      "y": 294,
+      "width": 604,
+      "height": 224
+    },
+    "number": {
+      "x": 80,
+      "y": 540,
+      "font_size": 420,
+      "opacity": 0.12
+    },
+    "tagline_font": "KaiTi, STKaiti, Microsoft YaHei",
+    "tagline_size": 34
+  },
+  "rules": {
+    "structure_fixed": true,
+    "palette_content_driven": true,
+    "no_real_photos_on_dividers": true,
+    "no_cards_everywhere": true,
+    "no_fake_metrics": true,
+    "accent_small_area_only": true
+  }
+}

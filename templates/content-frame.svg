@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" data-pptx-page-role="content">
+  <!--
+    Anonymized content page frame.
+    Replace placeholders, then build the page body with open rows, one evidence
+    band, or one image field. Do not turn every unit into a card.
+  -->
+  <rect id="page-bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F7FAFE"/>
+
+  <g id="page-nav" data-pptx-role="header" data-pptx-bounds="0 0 1280 72">
+    <rect x="0" y="0" width="1280" height="72" fill="#192F59"/>
+    <text x="64" y="46" font-size="22" fill="#F5F8FA" font-weight="bold">{{CANDIDATE_NAME}}</text>
+    <text x="250" y="46" font-size="21" fill="#B9CAD7">{{NAV_01}}</text>
+    <text x="410" y="46" font-size="21" fill="#B9CAD7">{{NAV_02}}</text>
+    <text x="570" y="46" font-size="21" fill="#B9CAD7">{{NAV_03}}</text>
+    <text x="730" y="46" font-size="21" fill="#B9CAD7">{{NAV_04}}</text>
+    <text x="910" y="46" font-size="21" fill="#B9CAD7">{{NAV_05}}</text>
+    <text x="1216" y="46" font-size="19" fill="#B9CAD7" text-anchor="end">{{PAGE_NO}}</text>
+  </g>
+
+  <g id="page-title" data-pptx-bounds="64 96 1000 120">
+    <rect x="64" y="112" width="48" height="2" fill="#C2A368"/>
+    <text x="64" y="168" font-family="Georgia, Source Han Serif SC Heavy, SimSun" font-size="44" fill="#192F59">{{TITLE}}</text>
+    <text x="64" y="206" font-size="24" fill="#5B7080">{{SUBTITLE}}</text>
+  </g>
+
+  <g id="page-body" data-pptx-bounds="64 232 1152 430">
+    <!-- Replace this placeholder with real content: open rows, a matrix,
+         a project evidence field, or a two-column contrast. -->
+    <text x="64" y="280" font-size="24" fill="#5B7080">{{BODY_PLACEHOLDER}}</text>
+  </g>
+
+  <g id="page-footer" data-pptx-role="footer" data-pptx-bounds="0 680 1280 40">
+    <rect x="0" y="680" width="1280" height="40" fill="#192F59"/>
+    <text x="64" y="706" font-size="16" fill="#C9D7E0">{{SOURCE_OR_BOUNDARY}}</text>
+    <text x="1216" y="706" font-size="16" fill="#C9D7E0" text-anchor="end">{{PAGE_NO}} / {{TOTAL_PAGES}}</text>
+  </g>
+</svg>
